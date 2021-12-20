@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       new GlobalKey<ScaffoldMessengerState>();
   @override
   void initState() {
-    // TODO: implement initState
+    // TODO: implement initStates
     super.initState();
     //Context!
     PushNotificationService.messagesStream.listen((message) {
